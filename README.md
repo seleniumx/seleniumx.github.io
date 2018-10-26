@@ -42,13 +42,14 @@ public class TestClass extends Driver {
 
 - @DriverSettings
 Put the annotation before the method declaration. 
+E.g:
 ```
-    @DriverSettings(
-               OS = DriverSet.OS.LINUX,
-               WINDOW_SIZE = DriverSet.WINDOW_SIZE.DEFAULT,
-               BASE_URL = "https://www.samplewebsite.com",
-               IMPLICIT_WAIT = 100
-    )
+@DriverSettings(
+        OS = Set.OS.LINUX,
+        WINDOW_SIZE = Set.WINDOW_SIZE.DEFAULT,
+        BASE_URL = "https://www.samplewebsite.com",
+        IMPLICIT_WAIT = 100
+)
 ```
 
 
