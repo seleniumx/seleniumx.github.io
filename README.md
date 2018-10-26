@@ -25,7 +25,7 @@ Maven Dependencies
 
 ### Annotations 
 - @DriverSettings
-    ```
+```
     @DriverSettings(
                OS = DriverSet.OS.LINUX,
                WINDOW_SIZE = DriverSet.WINDOW_SIZE.DEFAULT,
@@ -33,3 +33,5 @@ Maven Dependencies
                IMPLICIT_WAIT = 100
     )
 ```
+
+Put the annotation before the method declaration. 
