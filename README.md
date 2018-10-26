@@ -25,19 +25,6 @@ Maven Dependencies
 </dependency>
 ```
 
-### Annotations 
-
-- @DriverSettings
-Put the annotation before the method declaration. 
-```
-    @DriverSettings(
-               OS = DriverSet.OS.LINUX,
-               WINDOW_SIZE = DriverSet.WINDOW_SIZE.DEFAULT,
-               BASE_URL = "https://www.samplewebsite.com",
-               IMPLICIT_WAIT = 100
-    )
-```
-
 ### Steps to implement the framework with your test environment
 - Extend the Start class with tour test case class
 - Implement the annotation and give parameters accordingly
@@ -51,6 +38,17 @@ public class TestClass extends Driver {
     }
 }
 ```
+### Supported Annotations 
 
+- @DriverSettings
+Put the annotation before the method declaration. 
+```
+    @DriverSettings(
+               OS = DriverSet.OS.LINUX,
+               WINDOW_SIZE = DriverSet.WINDOW_SIZE.DEFAULT,
+               BASE_URL = "https://www.samplewebsite.com",
+               IMPLICIT_WAIT = 100
+    )
+```
 
 
