@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+![Image](https://github.com/seleniumx/seleniumx/blob/master/Seleniumx_logo.png)
 
-You can use the [editor on GitHub](https://github.com/seleniumx/seleniumx.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Welcome to Seleniumx
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Seleniumx is a test automation framework developed based on Selenium. QA/Automation Engineers who are developing automated test cases more familiar with selenium functionalities and features. But it is hard to follow a common framework who can understand and used by every team member. As a solution, we developed a common framework that is no need to build from scratch, but also the frame implemented for you. You don't have to worry about what kind of OS you are using or what kind of browser type you using because of each and every component built-in with Seleniumx. You just need to call an annotation and that's all. All the things will be done by Seleniumx for you.
 
-### Markdown
+### Supported OS types 
+- MAC OS
+- Windows
+- Linux
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+### Annotations 
+- @DriverSettings
+    ```
+    @DriverSettings(
+               OS = DriverSet.OS.LINUX,
+               WINDOW_SIZE = DriverSet.WINDOW_SIZE.DEFAULT,
+               BASE_URL = "https://www.samplewebsite.com",
+               IMPLICIT_WAIT = 100
+    )
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/seleniumx/seleniumx.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
