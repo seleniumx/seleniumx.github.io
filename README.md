@@ -45,10 +45,10 @@ Put the annotation before the method declaration.
 E.g:
 ```
 @DriverSettings(
-        OS = Set.OS.LINUX,
-        WINDOW_SIZE = Set.WINDOW_SIZE.DEFAULT,
-        BASE_URL = "https://www.samplewebsite.com",
-        IMPLICIT_WAIT = 100
+    OS = Set.OS.LINUX,
+    WINDOW_SIZE = Set.WINDOW_SIZE.DEFAULT,
+    BASE_URL = "https://www.samplewebsite.com",
+    IMPLICIT_WAIT = 100
 )
 ```
 
