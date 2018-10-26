@@ -9,6 +9,20 @@ Seleniumx is a test automation framework developed based on Selenium. QA/Automat
 - Windows
 - Linux
 
+
+### Latest version
+Seleniumx 1.0-SNAPSHOT
+
+Maven Dependencies
+```
+<dependency>
+  <groupId>org.seleniumx</groupId>
+  <artifactId>seleniumx</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <classifier>jar-with-dependencies</classifier>
+</dependency>
+```
+
 ### Annotations 
 - @DriverSettings
     ```
