@@ -1,4 +1,4 @@
-![Image](https://github.com/seleniumx/seleniumx/blob/master/Seleniumx_logo.png)
+![Image](https://raw.githubusercontent.com/seleniumx/seleniumx/master/Seleniumx_logo.png)
 
 ## Welcome to Seleniumx
 
